@@ -6,8 +6,9 @@ body {
 .menubar ul:first-child {
     margin-right: auto;
     font-weight: bold;
-    font-size: 30px;
-    
+    font-size: 32px;
+    line-height: 1px;
+    text-shadow: 2px 2.5px 2px rgba(0, 0, 0, 0.5);
 }
 
 .menubar {
@@ -22,9 +23,19 @@ body {
 }
 
 .menubar ul {
+    display: flex;
     line-height: 32px;
 }
-
 .container {
     background-color: #A79277;
+    position: relative;
 }
+
+img {
+    width: 490px;
+    padding: 10px;
+    margin-right: 100px;
+    position: absolute;
+}
+
+
