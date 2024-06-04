@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    background-color: #FFF2E1;
+}
+
+.menubar ul:first-child {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.menubar {
+    display: flex;
+    justify-content: flex-end;
+    height: 65px;
+    color: #EAD8C0;
+}
+
+.menubar ul:last-child {
+    margin-right: 40px;
+}
+
+.menubar ul {
+    line-height: 32px;
+}
+
+.container {
+    background-color: #A79277;
+}
