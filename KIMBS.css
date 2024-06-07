@@ -34,15 +34,6 @@ body {
     position: relative;
 }
 
-.riz-image {
-    width: auto;
-    height: 300px;
-    max-width: 30%; /* 이미지의 최대 너비를 설정 */
-    margin-top: 36px;
-    margin-left: 20px; 
-    position: absolute;
-}
-
 .nct-image {
     width: 500px;
     height: 300px;
@@ -55,6 +46,15 @@ body {
     height: 300px;
     margin-top: 36px;
     margin-left: 20px;
+}
+
+.riz-image {
+    width: auto;
+    height: 300px;
+    max-width: 30%; /* 이미지의 최대 너비를 설정 */
+    margin-top: 36px;
+    margin-left: 20px; 
+    position: absolute;
 }
 
 .image-text {
@@ -73,6 +73,80 @@ body {
     font-size: 15px;
 }
 
+.seven-text {
+    position: absolute;
+    top: 75px; /* 세븐틴 사진 상단으로부터의 간격 조정 */
+    left: 560px;
+    color: #AB5849;
+    font-size: 16px;
+}
+
+.sev-text {
+    position: absolute;
+    bottom: 39%;
+    left: 540px;
+    color: #AB5849;
+    font-size: 15px;
+}
+
+.riz-text {
+    position: absolute;
+    top: 75px; /* 세븐틴 사진 상단으로부터의 간격 조정 */
+    right: 270px;
+    color: #AB5849;
+    font-size: 16px;
+}
+
+.rize-text {
+    position: absolute;
+    bottom: 39%;
+    right: 380px;
+    color: #AB5849;
+    font-size: 15px;
+}
+
+.long-line {
+    border: none;
+    height: 0.5px; /* 선의 높이 */
+    background-color: #EAD8C0;
+    margin: 35px auto; /* 선의 위아래 여백 */
+    max-width: 97%;
+}
+
+h2 {
+    font-weight: bold;
+    color: #AB5849;
+}
+
+.title {
+    margin-top: -25px;
+    margin-left: 60px;
+}
+
+.ri-image {
+    position: relative;
+    width: auto;
+    height: 100%;
+    max-height: 100%;
+    left: 60px; /* 좌우로 이동할 거리를 조절할 수 있습니다 */
+    top: -10px; /* 상하로 이동할 거리를 조절할 수 있습니다 */
+    border-radius: 15px;
+}
+
+.tittle {
+    position: absolute; /* 절대 위치 설정 */
+    margin-top: -310px;
+    right: 290px; /* 오른쪽으로부터의 거리 설정 */
+    color: #AB5849;
+}
+
+.in {
+    position: absolute; /* 절대 위치 설정 */
+    margin-top: -253px;
+    right: 107px; /* 오른쪽으로부터의 거리 설정 */
+    color: #948979;
+}
+
 .search-bar li {
     display: flex;
     align-items: center;
@@ -81,3 +155,7 @@ body {
 .search-bar i {
     margin-right: 5px;
 }
+
+/* @media screen and (max-width:976px){
+    
+} */
