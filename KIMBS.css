@@ -16,6 +16,7 @@ body {
     justify-content: flex-end;
     height: 65px;
     color: #EAD8C0;
+    background-color: #A79277; /* 메뉴바 배경색 추가 */
 }
 
 .menubar ul:last-child {
@@ -25,17 +26,58 @@ body {
 .menubar ul {
     display: flex;
     line-height: 32px;
+    align-items: center;
 }
+
 .container {
     background-color: #A79277;
     position: relative;
 }
 
-img {
-    width: 490px;
-    padding: 10px;
-    margin-right: 100px;
+.riz-image {
+    width: auto;
+    height: 300px;
+    max-width: 30%; /* 이미지의 최대 너비를 설정 */
+    margin-top: 36px;
+    margin-left: 20px; 
     position: absolute;
 }
 
+.nct-image {
+    width: 500px;
+    height: 300px;
+    margin-top: 36px;
+    margin-left: 16px;
+}
 
+.sev-image {
+    width: 500px;
+    height: 300px;
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.image-text {
+    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵니다. */
+    top: 75px; /* 이미지 상단으로부터 10px 아래에 텍스트를 배치합니다. */
+    left: 20px; /* 이미지 왼쪽으로부터 10px 오른쪽에 텍스트를 배치합니다. */
+    color: #AB5849; /* 텍스트 색상 */
+    font-size: 16px; /* 텍스트 크기 */
+}
+
+.img-text {
+    position: absolute;
+    bottom: 39%;
+    left: 14px;
+    color: #AB5849;
+    font-size: 15px;
+}
+
+.search-bar li {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar i {
+    margin-right: 5px;
+}
