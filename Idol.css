@@ -103,15 +103,30 @@ body {
     position: absolute;
     top: 442px;
     left: 780px;
+    color: #948979;
 }
 
 .janghao {
     position: absolute;
-    top: 450px;
+    top: 495px;
     left: 780px;
     width: 500px;
     height: 300px;
     border-radius: 15px;
+}
+
+.jang {
+    position: absolute;
+    top: 803px;
+    left: 782px;
+    font-weight: bold;
+}
+
+.hao {
+    position: absolute;
+    top: 827px;
+    left: 780px;
+    color: #948979;
 }
 
 .search-bar li {
