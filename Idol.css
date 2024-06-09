@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #FFF2E1;
+}
+
+.menubar ul:first-child {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1px;
+    text-shadow: 2px 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.menubar {
+    display: flex;
+    justify-content: flex-end;
+    height: 65px;
+    color: #EAD8C0;
+    background-color: #A79277; /* 메뉴바 배경색 추가 */
+}
+
+.menubar ul:last-child {
+    margin-right: 40px;
+}
+
+.menubar ul {
+    display: flex;
+    line-height: 32px;
+    align-items: center;
+}
+
+.container {
+    background-color: #A79277;
+    position: relative;
+}
+
+.aespa {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 120px;
+    width: 580px; 
+    height: 300px;
+    border-radius: 15px;
+}
+
+
+.aes-text {
+    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵 */
+    top: 415px; 
+    left: 125px;
+    font-weight: bold;
+}
+
+.pa-text {
+    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵 */
+    top: 440px; 
+    left: 123px;
+    font-size: 14px;
+    color: #948979;
+}
+
+.nayeon {
+    position: absolute;
+    margin-top: 442px;
+    margin-left: 120px;
+    width: 580px; 
+    height: 240px;
+    border-radius: 15px;
+}
+
+.na {
+    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵 */
+    top: 753px; 
+    left: 125px;
+    font-weight: bold;
+}
+
+.yeon {
+    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵 */
+    top: 778px; 
+    left: 123px;
+    font-size: 14px;
+    color: #948979;
+}
+
+.wonyeong {
+    position: absolute;
+    top: 110px;
+    left: 780px;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.won {
+    position: absolute;
+    top: 418px;
+    left: 782px;
+    font-weight: bold;
+}
+
+.yeong {
+    position: absolute;
+    top: 442px;
+    left: 780px;
+}
+
+.janghao {
+    position: absolute;
+    top: 450px;
+    left: 780px;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.search-bar li {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar i {
+    margin-right: 5px;
+}
+
+.menubar ul:hover {
+    cursor: pointer;
+}
