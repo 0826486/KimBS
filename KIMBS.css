@@ -49,7 +49,7 @@ body {
 }
 
 .image-text {
-    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵니다. */
+    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵 */
     top: 75px; 
     left: 210px;
     color: #AB5849;
@@ -135,34 +135,77 @@ h2 {
 }
 
 /* Tablet */
-@media screen and (max-width:976px){
-    @media screen and (max-width: 976px) {
-        .menubar ul {
-            display: block;
-            margin: 5px 0;
-        }
-        .image-container {
-            width: 100%;
-        }
-        .nct-image, .sev-image, .riz-image {
-            max-width: 100%;
-            height: auto;
-        }
-        .image-text, .img-text, .seven-text, .sev-text, .riz-text, .rize-text {
-            position: static;
-            margin: 10px 0;
-            text-align: center;
-        }
-        .long-line {
-            margin: 20px auto;
-        }
-        .title {
-            margin-left: 10px;
-        }
-        .ri-image {
-            max-width: 100%;
-            height: auto;
-        }
+@media screen and (max-width: 976px) {
+
+    /* .img.container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    } */
+
+    .nct-image {
+        margin-top: 30px;
+        margin-left: 50px;
+        width: 405px; /* 부모 요소의 너비에 맞게 이미지 너비를 100%로 설정 */
+        height: auto;
     }
-    
+
+    .sev-image {
+        margin-top: 30px;
+        margin-left: 52px;
+        width: 405px;
+        height: auto;
+    }
+
+    .image-text {
+        position: absolute;
+        left: 60px;
+    }
+
+    .img-text {
+        position: absolute;
+        top: 330px;
+        left: 50px;
+    }
+
+    .seven-text {
+        position: absolute;
+        top: 72px;
+        left: 520px;
+    }
+
+    .sev-text {
+        position: absolute;
+        top: 330px;
+        left: 512px;
+    }
+
+    h2 {
+        position: absolute;
+        left: -25px;
+    }
+
+    .ri-image {
+        margin-top: 10px;
+        top: 7px;
+        left: 32px;
+        width: 500px;
+        height: auto;
+    }
+
+    .tittle {
+        position: absolute;
+        left: 550px;
+        top: 720px;
+        width: 41vw;    /* 웹 페이지의 글자 크기를 조절 할 수 있는 css 단위 */
+        font-size: 16px;
+    }
+
+    .in {
+        position: absolute;
+        left: 550px;
+        top: 733px;
+        width: 39vw;
+    }
 }
+
