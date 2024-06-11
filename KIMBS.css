@@ -1,139 +1,86 @@
-
+/* KIMBS.css */
 body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
+    padding: 0;
     background-color: #FFF2E1;
 }
 
-.menubar ul:first-child {
-    margin-right: auto;
+.nav {
+    background-color: #A79277; /* 배경색 변경 가능 */
+    color: #fff; /* 글자색 변경 가능 */
+    padding: 14px 0;
+}
+
+.big {
+    font-size: 28px;
+    margin-left: 30px; /* .big 클래스에만 적용 */
     font-weight: bold;
-    font-size: 32px;
-    line-height: 1px;
-    text-shadow: 2px 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+.right-menu:last-child {
+    letter-spacing: 3px;
+    margin-left: 917px;
 }
 
 .menubar {
     display: flex;
-    justify-content: flex-end;
-    height: 65px;
-    color: #EAD8C0;
-    background-color: #A79277; /* 메뉴바 배경색 추가 */
-}
-
-.menubar ul:last-child {
-    margin-right: 40px;
+    align-items: center;
 }
 
 .menubar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: flex;
-    line-height: 32px;
     align-items: center;
 }
 
-.container {
-    background-color: #A79277;
-    position: relative;
+.menubar li {
+    display: inline; /* 글자를 가로로 표시 */
+    color: #EAD8C0;
+    padding: 10px;
 }
 
-.nct-image {
-    width: 500px;
-    height: 300px;
-    margin-top: 36px;
-    margin-left: 200px; /* nct-image에만 적용될 왼쪽 여백 */
+.menubar li a {
+    display: inline;
+    color: #EAD8C0; /* 링크 색상 변경 */
+    text-decoration: none; /* 링크 밑줄 제거 */
 }
 
-.sev-image {
-    width: 500px;
-    height: 300px;
-    margin-top: 36px;
-    margin-left: 100px; /* sev-image에만 적용될 왼쪽 여백 */
+.menubar .search-bar {
+    margin-left: auto;
 }
 
-.image-text {
-    position: absolute; /* 텍스트를 이미지를 기준으로 절대적으로 위치시킵 */
-    top: 75px; 
-    left: 210px;
-    color: #AB5849;
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
-.img-text {
-    position: absolute;
-    bottom: 39%;
-    left: 200px;
-    color: #AB5849;
-    font-size: 15px;
+.image-container img {
+    max-width: 100%;
+    height: auto;
 }
 
-.seven-text {
-    position: absolute;
-    top: 75px; /* 세븐틴 사진 상단으로부터의 간격 조정 */
-    left: 807px;
-    color: #AB5849;
-    font-size: 16px;
-}
-
-.sev-text {
-    position: absolute;
-    bottom: 39%;
-    left: 806px;
-    color: #AB5849;
-    font-size: 15px;
+.nct-container, .seven-container, .news-container, .impossible-container, .song-container {
+    text-align: center;
+    margin: 20px 0;
 }
 
 .long-line {
-    border: none;
-    height: 0.5px; /* 선의 높이 */
-    background-color: #EAD8C0;
-    margin: 35px auto; /* 선의 위아래 여백 */
-    max-width: 97%;
+    border: 1px solid #ccc;
 }
 
-h2 {
+.title, .tittle {
+    font-size: 24px;
     font-weight: bold;
-    color: #AB5849;
-}
-
-.title {
-    margin-top: -25px;
-    margin-left: 60px;
-}
-
-.ri-image {
-    position: relative;
-    width: auto;
-    height: 100%;
-    max-height: 100%;
-    left: 60px; /* 좌우로 이동할 거리를 조절할 수 있습니다 */
-    top: -10px; /* 상하로 이동할 거리를 조절할 수 있습니다 */
-    border-radius: 15px;
-}
-
-.tittle {
-    position: absolute; /* 절대 위치 설정 */
-    margin-top: -310px;
-    right: 290px; /* 오른쪽으로부터의 거리 설정 */
-    color: #AB5849;
 }
 
 .in {
-    position: absolute; /* 절대 위치 설정 */
-    margin-top: -253px;
-    right: 107px; /* 오른쪽으로부터의 거리 설정 */
-    color: #948979;
+    margin: 20px;
 }
 
-.search-bar li {
-    display: flex;
-    align-items: center;
-}
-
-.search-bar i {
-    margin-right: 5px;
-}
-
-.menubar ul:hover {
-    cursor: pointer;
-}
 
 /* Tablet */
 @media screen and (max-width: 976px) {
