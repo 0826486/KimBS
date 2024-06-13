@@ -18,8 +18,8 @@ body {
 }
 
 .right-menu:last-child {
+    margin-right: 30px;
     letter-spacing: 3px;
-    /* margin-left: 917px; */
 }
 
 .menubar ul {

@@ -16,7 +16,7 @@ body {
     justify-content: flex-end;
     height: 65px;
     color: #EAD8C0;
-    background-color: #A79277; /* 메뉴바 배경색 추가 */
+    background-color: #A79277;
 }
 
 .menubar ul:last-child {
