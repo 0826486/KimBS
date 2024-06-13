@@ -7,9 +7,8 @@ body {
 }
 
 .nav {
-    background-color: #A79277; /* 배경색 변경 가능 */
-    color: #fff; /* 글자색 변경 가능 */
-    padding: 14px 0;
+    background-color: #A79277; /* 배경색 변경 가능 */   
+    padding: 10px 0;
 }
 
 .big {
@@ -20,12 +19,7 @@ body {
 
 .right-menu:last-child {
     letter-spacing: 3px;
-    margin-left: 917px;
-}
-
-.menubar {
-    display: flex;
-    align-items: center;
+    /* margin-left: 917px; */
 }
 
 .menubar ul {
@@ -34,6 +28,7 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .menubar li {
@@ -85,27 +80,21 @@ body {
 /* Tablet */
 @media screen and (max-width: 976px) {
 
-    /* .img.container {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    } */
+    .image-container {
+        margin-top: 35px;
+    }
 
-    .nct-image {
-        margin-top: 30px;
-        margin-left: 50px;
-        width: 405px; /* 부모 요소의 너비에 맞게 이미지 너비를 100%로 설정 */
+     .nct-image {
+        width: 405px; 
         height: auto;
     }
 
     .sev-image {
-        margin-top: 30px;
-        margin-left: 52px;
         width: 405px;
         height: auto;
     }
 
-    .image-text {
+    /* .image-text {
         position: absolute;
         left: 60px;
     }
@@ -130,13 +119,14 @@ body {
 
     h2 {
         position: absolute;
-        left: -25px;
+        margin-top: -5px;
+        left: 30px;
     }
 
     .ri-image {
         margin-top: 10px;
         top: 7px;
-        left: 32px;
+        margin-right: 100px;
         width: 500px;
         height: auto;
     }
@@ -145,7 +135,7 @@ body {
         position: absolute;
         left: 550px;
         top: 720px;
-        width: 41vw;    /* 웹 페이지의 글자 크기를 조절 할 수 있는 css 단위 */
+        width: 41vw;  
         font-size: 16px;
     }
 
@@ -154,5 +144,9 @@ body {
         left: 550px;
         top: 733px;
         width: 39vw;
-    }
+    } */ 
+}
+
+@media screen and (max-width:600px){
+    
 }
