@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF2E1;
+}
+
+.text {
+    margin-top: 130px;
+    color: #212121;
+}
+
+.text div {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+
+.last {
+    color: rgba(0, 0, 0, 30%);
+}
+
+.Goods-container {
+    display: flex;
+    margin-right: 75px;
+    justify-content: center;
+}
+
+.img-container {
+    width: 680px;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3열로 나누기 */
+    grid-template-rows: repeat(2, auto); /* 2행으로 나누기 */
+    gap: 23px; /* 이미지 요소 사이의 간격 */
+}
+
+.img-container div {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container img {
+    max-width: 100%;
+    height: auto;
+}
