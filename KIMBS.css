@@ -6,45 +6,9 @@ body {
     background-color: #FFF2E1;
 }
 
-.nav {
-    background-color: #A79277; /* 배경색 변경 가능 */   
-    padding: 10px 0;
-}
-
-.big {
-    font-size: 28px;
-    margin-left: 30px; /* .big 클래스에만 적용 */
-    font-weight: bold;
-}
-
-.right-menu:last-child {
-    margin-right: 30px;
-    letter-spacing: 3px;
-}
-
-.menubar ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.menubar li {
-    display: inline; /* 글자를 가로로 표시 */
-    color: #EAD8C0;
-    padding: 10px;
-}
-
-.menubar li a {
-    display: inline;
-    color: #EAD8C0; /* 링크 색상 변경 */
-    text-decoration: none; /* 링크 밑줄 제거 */
-}
-
-.menubar .search-bar {
-    margin-left: auto;
+.container {
+    background-color: #A79277;
+    position: relative;
 }
 
 .image-container {
@@ -64,7 +28,7 @@ body {
 }
 
 .long-line {
-    border: 1px solid #ccc;
+    border: 1px solid #EAD8C0;
 }
 
 .title, .tittle {
