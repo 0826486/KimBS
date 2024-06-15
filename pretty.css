@@ -6,7 +6,7 @@ body {
 }
 
 .text {
-    margin-top: 130px;
+    margin-top: 190px;
     color: #212121;
 }
 
@@ -29,7 +29,7 @@ body {
 
 .img-container {
     width: 680px;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-left: 80px;
 }
 
@@ -37,7 +37,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3열로 나누기 */
     grid-template-rows: repeat(2, auto); /* 2행으로 나누기 */
-    gap: 23px; /* 이미지 요소 사이의 간격 */
+    gap: 23px;
 }
 
 .img-container div {
@@ -48,4 +48,63 @@ body {
 .img-container img {
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        height: 52px;
+        padding: 0;
+
+    }
+    .right-menu {
+        display: none;
+    }
+    .hem {
+        display: flex;
+        font-size: 30px;
+        color: #EAD8C0;
+    }
+
+    .menubar li>a  {
+        color: black;
+        display: flex;
+    }
+    .menubar li {
+        display: inline-block;
+        float: right;
+    }
+
+    .show {
+        display: flex;
+        flex-direction: column;
+        float: right;
+        font-size: 13px;
+        position: absolute;
+        width: 150px;
+        height: calc(100% - 52px);
+        top: 52px;
+        right: 0;
+        background-color: #E8DFCA;
+        z-index: 2;
+    }
+    .big {
+        padding: 0;
+        margin: 0;
+        margin-left: 10px; /* .big 클래스에만 적용 */
+    }
+    .big-hem {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .nav-menubar {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 10px;
+    }
+
+    .right-menu {
+        color: black;
+    }
 }

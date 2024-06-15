@@ -1,5 +1,5 @@
 .nav {
-    background-color: #A79277; /* 배경색 변경 가능 */   
+    background-color: #A79277;  
     padding: 10px 0;
 }
 
@@ -7,10 +7,14 @@
     font-size: 28px;
     margin-left: 30px; /* .big 클래스에만 적용 */
     font-weight: bold;
+    padding: 0;
+}
+
+.menubar {
+    padding-right: 20px;
 }
 
 .right-menu:last-child {
-    margin-right: 30px;
     letter-spacing: 3px;
 }
 
@@ -23,6 +27,10 @@
     justify-content: space-between;
 }
 
+.hem {
+    display: none;
+}
+
 .menubar li {
     display: inline; /* 글자를 가로로 표시 */
     color: #EAD8C0;
@@ -31,8 +39,12 @@
 
 .menubar li a {
     display: inline;
-    color: #EAD8C0; /* 링크 색상 변경 */
+    color: #EAD8C0; /*링크 색상 변경*/
     text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.icon {
+    color: #EAD8C0;
 }
 
 .menubar .search-bar {
@@ -42,3 +54,4 @@
 .menubar ul:hover {
     cursor: pointer;
 }
+
