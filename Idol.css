@@ -56,4 +56,8 @@ body {
     .img-container {
         width:500px;
     }
+
+    .hem {
+        margin-top: -8px;
+    }
 }
