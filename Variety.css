@@ -8,3 +8,60 @@ body {
 .big-hem, .right-menu {
     margin-top: 10px;
 }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 55px;
+    margin-top: 10px;
+    margin-left: 90px;
+}
+
+.Oo {
+    border-radius: 10px;
+    width: 550px;
+    margin-bottom: 60px;
+}
+
+.text {
+    position: absolute;
+    width: 370px; 
+    height: 100px; 
+    background-color: #F0DEC7;
+    border-radius: 8px;
+    margin-left: 580px;
+    margin-top: -165px;
+}
+
+.Po {
+    margin-top: 19px;
+    margin-left: 20px;
+}
+
+/* .card-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    padding: 20px;
+    background-color: #FFF2E1;
+}
+
+.air {
+    width: 300px;
+    background-color: #f5f1e9;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden; 
+}
+
+.text {
+    padding: 16px;
+    text-align: center;
+}
+
+.Po {
+    font-size: 16px;
+    font-weight: bold;
+} */
