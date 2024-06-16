@@ -5,11 +5,6 @@ body {
     background-color: #FFF2E1;
 }
 
-.container {
-    background-color: #A79277;
-    position: relative;
-}
-
-.right-menu, .big-hem {
+.big-hem, .right-menu {
     margin-top: 10px;
 }

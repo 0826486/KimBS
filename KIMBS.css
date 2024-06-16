@@ -12,10 +12,8 @@ body {
 
 .image-container {
     display: flex;
-    justify-content: center; 
-    flex-wrap: wrap;
+    justify-content: space-around;
     margin-top: 40px;
-    gap: 20px;
 }
 
 .image-container img {
@@ -41,130 +39,6 @@ body {
     margin: 20px;
 }
 
-/* 976px 이상 */
-@media screen and (min-width: 976px) {
-    .image-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 40px;
-        flex-wrap: nowrap;
-    }
-
-    .image-container a {
-        flex: 0 0 48%;
-    }
-
-    .image-container img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-/* 976px 이하 */
-@media screen and (max-width: 975px) {
-    .image-container {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .image-container a {
-        flex: 0 0 100%;
-        max-width: 100%; /* 이미지 컨테이너의 최대 너비 설정 */
-    }
-
-    .image-container img {
-        max-width: 500px; /* 이미지의 최대 너비를 500px로 설정 */
-        width: 100%;
-        height: auto;
-    }
-}
-
-/* mobile */
-@media screen and (max-width: 600px) {
-    .container {
-        height: 52px;
-        padding: 0;
-    }
-
-    .big-hem {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .hem {
-        display: flex;
-        font-size: 30px;
-        color: #EAD8C0;
-    }
-
-    .menubar {
-        padding-right: 20px;
-    }
-
-    .right-menu {
-        display: none;
-    }
-
-    .right-menu.show {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 52px;
-        background-color: #E8DFCA;
-        width: 100%;
-        text-align: right;
-        padding: 10px;
-        z-index: 2;
-    }
-
-    .big {
-        padding: 0;
-        margin: 0;
-        margin-left: 10px;
-    }
-
-    .nav-menubar {
-        display: flex;
-        flex-direction: column;
-        margin: 0 0 0 10px;
-    }
-
-    .right-menu {
-        color: black;
-    }
-
-    .image-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .image-container img {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .impossible-container img {
-        width: 80%; /* 라이즈 뉴스 이미지 크기 줄이기 */
-    }
-
-    .in {
-        margin: 10px;
-        font-size: 14px;
-    }
-
-    .title, .tittle {
-        font-size: 20px;
-    }
-
-    .image-container {
-        width: 100%;
-    }
-
-    .nct-image, .sev-image {
-        width: 100%;
-    }
+.right-menu, .big-hem {
+    margin-top: 10px;
 }
