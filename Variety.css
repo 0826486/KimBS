@@ -5,7 +5,7 @@ body {
     background-color: #FFF2E1;
 }
 
-.big-hem, .right-menu {
+.big-hem {
     margin-top: 10px;
 }
 
@@ -39,29 +39,49 @@ body {
     margin-left: 20px;
 }
 
-/* .card-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    gap: 20px;
-    padding: 20px;
-    background-color: #FFF2E1;
+/* tablit */
+@media screen and (max-width:976px) {
+    .card-container {
+        margin-left: 30px; /* 카드 컨테이너 왼쪽 여백을 줄입니다. */
+    }
+    
+    .Oo {
+        width: 460px; /* 이미지 너비를 줄입니다. */
+    }
+    
+    .text {
+        width: 350px; /* 텍스트 박스 너비를 줄입니다. */
+        margin-left: 470px; /* 텍스트 박스를 왼쪽으로 이동시킵니다. */
+        margin-top: -160px; /* 텍스트 박스 위치를 조정합니다. */
+    }
+    
+    .Po {
+        font-size: 15px;
+        margin-left: 16px; /* 텍스트 내용을 조정합니다. */
+    }
 }
 
-.air {
-    width: 300px;
-    background-color: #f5f1e9;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); 
-    overflow: hidden; 
-}
+/* mobile */
+@media screen and (max-width:600px) {
+    .card-container {
+        margin-left: 6px;
+        margin-top: -4px;
+    }
 
-.text {
-    padding: 16px;
-    text-align: center;
-}
+    .nav {
+        transition: transform 0.3s ease-in-out; /* 부드러운 애니메이션 적용 */
+    }
 
-.Po {
-    font-size: 16px;
-    font-weight: bold;
-} */
+    .air {
+        /* margin-top: -20px; */
+        margin-bottom: 10px;
+        padding-bottom: 59px;
+    }
+
+    .text {
+        margin-bottom: 300px;
+        margin-top: -54px;
+        margin-left: 54px;
+        margin-top: -47px;
+    }
+}
