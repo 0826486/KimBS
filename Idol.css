@@ -41,3 +41,19 @@ body {
 .aespa {
     border-radius: 10px;
 }
+
+@media screen and (max-width: 600px) {
+
+    .aespa {
+        width: 500px;
+    }
+
+    .idol-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .img-container {
+        width:500px;
+    }
+}

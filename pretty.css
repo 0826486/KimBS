@@ -21,6 +21,63 @@ body {
     color: rgba(0, 0, 0, 30%);
 }
 
+.nav {
+    background-color: #A79277;  
+    padding: 10px 0;
+}
+
+.big {
+    font-size: 28px;
+    margin-left: 30px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.menubar {
+    padding-right: 20px;
+}
+
+.right-menu:last-child {
+    letter-spacing: 3px;
+}
+
+.menubar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hem {
+    display: none;
+}
+
+.menubar li {
+    display: inline; /* 글자를 가로로 표시 */
+    color: #EAD8C0;
+    padding: 10px;
+}
+
+.menubar li a {
+    display: inline-block;
+    color: #EAD8C0; /* 링크 색상 변경 */
+    text-decoration: none; /* 링크 밑줄 제거 */
+}
+
+.icon {
+    color: #EAD8C0;
+}
+
+.menubar .search-bar {
+    margin-left: auto;
+}
+
+.menubar ul:hover {
+    cursor: pointer;
+}
+
 .Goods-container {
     display: flex;
     margin-right: 75px;
@@ -35,8 +92,8 @@ body {
 
 .img-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3열로 나누기 */
-    grid-template-rows: repeat(2, auto); /* 2행으로 나누기 */
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
     gap: 23px;
 }
 
@@ -48,27 +105,32 @@ body {
 .img-container img {
     max-width: 100%;
     height: auto;
+    width: 150px; /* 이미지의 고정 너비 설정 */
 }
 
-@media screen and (max-width:600px) {
+
+
+@media screen and (max-width: 600px) {
     .container {
         height: 52px;
         padding: 0;
-
     }
+
     .right-menu {
         display: none;
     }
+
     .hem {
         display: flex;
         font-size: 30px;
         color: #EAD8C0;
     }
 
-    .menubar li>a  {
+    .menubar li > a {
         color: black;
         display: flex;
     }
+
     .menubar li {
         display: inline-block;
         float: right;
@@ -87,17 +149,20 @@ body {
         background-color: #E8DFCA;
         z-index: 2;
     }
+
     .big {
         padding: 0;
         margin: 0;
-        margin-left: 10px; /* .big 클래스에만 적용 */
+        margin-left: 10px;
     }
+
     .big-hem {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
+
     .nav-menubar {
         display: flex;
         flex-direction: column;
@@ -106,5 +171,9 @@ body {
 
     .right-menu {
         color: black;
+    }
+
+    .img-container img {
+        width: 200px; /* 600px 미만에서 이미지 크기를 200px로 설정 */
     }
 }
