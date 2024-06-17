@@ -65,6 +65,14 @@ body {
         width:500px;
     }
 
+    .show {
+        top: 52px;
+    }
+
+    .search > i {
+        color: black;
+    }
+
     .hem {
         margin-top: -8px;
     }

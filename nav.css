@@ -79,10 +79,12 @@
         display: inline-block;
         float: right;
     }
+
     .search-text{
         color: black;
         margin-right: 75px;
     }
+
     .show {
         display: flex;
         flex-direction: column;
@@ -90,16 +92,11 @@
         font-size: 13px;
         position: absolute;
         width: 150px;
-        
-        
         right: 0;
         height: 1325px;
         top: 42px;
         background-color: #E8DFCA;
         z-index: 2;
-    }
-    .search-bar{
-        /* margin-left: 2px; */
     }
 
     .big {
