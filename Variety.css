@@ -87,4 +87,8 @@ body {
         margin-left: 54px;
         margin-top: -47px;
     }
+
+    .show {
+        height: 1400px;
+    }
 }

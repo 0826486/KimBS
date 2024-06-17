@@ -67,6 +67,7 @@ body {
 
     .show {
         top: 52px;
+        height: 1800px;
     }
 
     .search > i {

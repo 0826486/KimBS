@@ -12,14 +12,15 @@ body {
 
 .image-container {
     display: flex;
-    justify-content: space-around;
+    margin-left: 120px;
+    gap: 40px;
     margin-top: 40px;
 }
-
 .image-container img {
     max-width: 100%;
     height: auto;
 }
+
 
 .nct-container, .seven-container, .news-container, .impossible-container, .song-container {
     text-align: center;
@@ -41,4 +42,28 @@ body {
 
 .right-menu, .big-hem {
     margin-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .ri-image {
+        width: 90%; /* 이미지를 화면 너비의 90%로 설정 */
+        max-width: none; /* 최대 너비 제한 제거 */
+        margin: 0 auto; /* 중앙 정렬 */
+    }
+
+    .song-container {
+        text-align: center; /* 텍스트 중앙 정렬 */
+    }
+
+    .tittle {
+        font-size: 20px; /* 제목 크기 조정 */
+    }
+
+    .in {
+        font-size: 15px; /* 텍스트 크기 조정 */
+    }
+
+    .nct-image, .sev-image {
+        margin-left: -50px;
+    }
 }
