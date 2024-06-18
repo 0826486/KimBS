@@ -118,6 +118,26 @@ body {
         display: none;
     }
 
+    .text {
+        margin-left: 0px; /* .text에만 margin-left를 주고 다른 스타일은 건드리지 않습니다 */
+    }
+
+    .img-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        justify-items: center;
+    }
+    
+    .img-container div {
+        width: 100%;
+    }
+    
+    .img-container .rize {
+        width: 90%;
+        height: auto;
+    }
+
     .hem {
         display: flex;
         font-size: 30px;
@@ -172,6 +192,6 @@ body {
     }
 
     .img-container img {
-        width: 200px; /* 600px 미만에서 이미지 크기를 200px로 설정 */
+        width: 200px;
     }
 }

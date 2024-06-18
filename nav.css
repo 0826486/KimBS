@@ -2,6 +2,10 @@
     background-color: #A79277;
 }
 
+.search-text {
+    display: inline;
+}
+
 .big {
     font-size: 28px;
     margin-left: 20px;
