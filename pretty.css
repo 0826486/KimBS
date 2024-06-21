@@ -160,7 +160,7 @@ body {
         font-size: 30px;
         color: #EAD8C0;
     }
-
+    
     .menubar li > a {
         color: black;
         display: flex;
@@ -168,7 +168,7 @@ body {
 
     .menubar li {
         display: inline-block;
-        float: right;
+        /* float: right; */
     }
 
     .big {
@@ -188,6 +188,7 @@ body {
         display: flex;
         flex-direction: column;
         float: right;
+        align-items: flex-end;
         font-size: 13px;
         position: absolute;
         width: 150px;

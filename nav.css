@@ -105,6 +105,7 @@
         display: flex;
         flex-direction: column;
         float: right;
+        align-items: flex-end;
         font-size: 13px;
         position: absolute;
         width: 150px;
