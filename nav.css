@@ -34,10 +34,17 @@
     display: none;
 }
 
+.big {
+    color: #EAD8C0;
+}
+
 .menubar li {
     display: inline; /* 글자를 가로로 표시 */
-    color: #EAD8C0;
     padding: 10px;
+}
+
+.right-menu > li > i , .right-menu > li {
+    color: #EAD8C0;
 }
 
 .menubar li a {
@@ -68,6 +75,10 @@
         display: none;
     }
 
+    .right-menu > li > i , .right-menu > li {
+        color: black;
+    }
+
     .hem {
         display: flex;
         font-size: 30px;
@@ -79,12 +90,13 @@
         display: flex;
     }
 
-    .menubar li {
+    .right-menubar li {
         display: inline-block;
+        color: black;
         float: right;
     }
 
-    .search-text{
+    .search-text {
         color: black;
         margin-right: 75px;
     }

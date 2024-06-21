@@ -54,9 +54,12 @@ body {
     display: none;
 }
 
+.big {
+    color: #EAD8C0;
+}
+
 .menubar li {
     display: inline; /* 글자를 가로로 표시 */
-    color: #EAD8C0;
     padding: 10px;
 }
 
@@ -105,7 +108,13 @@ body {
 .img-container img {
     max-width: 100%;
     height: auto;
-    width: 150px; /* 이미지의 고정 너비 설정 */
+    width: 150px;
+}
+
+@media screen and (max-width:976px) {
+    .text {
+        margin-left: 50px;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -119,7 +128,7 @@ body {
     }
 
     .text {
-        margin-left: 0px; /* .text에만 margin-left를 주고 다른 스타일은 건드리지 않습니다 */
+        margin-left: 32px;
     }
 
     .img-container {
