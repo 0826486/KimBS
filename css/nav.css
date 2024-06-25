@@ -98,9 +98,7 @@
 
     .search-text {
         color: black;
-        margin-right: 75px;
     }
-
     .show {
         display: flex;
         flex-direction: column;
