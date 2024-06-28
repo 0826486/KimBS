@@ -12,9 +12,11 @@ body {
 
 .image-container {
     display: flex;
-    margin-left: 120px;
+    justify-content: center;
+    /* margin-left: 120px; */
     gap: 40px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
+    margin: 40px;
 }
 
 .image-container img {
