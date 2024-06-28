@@ -11,6 +11,7 @@
     margin-left: 20px;
     font-weight: bold;
     padding: 0;
+    color: #A79277;
 }
 
 .menubar {
@@ -76,7 +77,7 @@
     }
 
     .right-menu > li > i , .right-menu > li {
-        color: black;
+        color: #A79277;
     }
 
     .nav .right-menu li.search-bar a {
@@ -89,8 +90,8 @@
         color: #EAD8C0;
     }
 
-    .menubar li>a  {
-        color: #E8DFCA;
+    .right-menu>li>a {
+        color: black;
         display: flex;
     }
 

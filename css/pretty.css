@@ -31,6 +31,7 @@ body {
     margin-left: 30px;
     font-weight: bold;
     padding: 0;
+    color: #A79277;
 }
 
 .menubar {
@@ -175,7 +176,7 @@ body {
         color: #EAD8C0;
     }
     
-    .menubar li > a {
+    .right-menu>li > a {
         color: black;
         display: flex;
     }
