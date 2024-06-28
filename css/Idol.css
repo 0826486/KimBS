@@ -59,7 +59,7 @@ body {
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.5); /* 검색창 배경색을 투명하게 설정 */
     border: 1.7px solid #A79277; /* 검색창 테두리 색상 */
-    border-radius: 15px; /* 검색창에 border-radius 추가 */
+    border-radius: 13px; /* 검색창에 border-radius 추가 */
     width: 80%; /* 검색창의 너비를 조정 */
     max-width: 600px; /* 검색창 최대 너비 설정 */
 }
