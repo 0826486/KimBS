@@ -22,3 +22,5 @@
 ##### • 이미지를 누르면 링크를 통해 영상들을 보러 갈 수 있으며, 검색창을 통해 자신이 원하는 예능을 검색 할 수 있습니다.
 
 ### » 이상 KimBS! 웹페이지에 대한 설명을 마치도록 하겠습니다. >.<
+
+[제 데모 영상입니다.] (https://drive.google.com/file/d/1X3EpcG5Low2gQFdYuGpbn5RthoUWANcU/view?usp=drive_link)
