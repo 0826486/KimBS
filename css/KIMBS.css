@@ -76,7 +76,7 @@ body {
     }
 }
 
-@media screen and (max-width:786px) {
+@media screen and (max-width:986px) {
     .image-container {
         padding-right: 25px;
         margin-left: 30px;
