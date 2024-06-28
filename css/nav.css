@@ -80,7 +80,7 @@
     }
 
     .nav .right-menu li.search-bar a {
-        color: black; /* 검색 아이콘과 텍스트를 검은색으로 설정 */
+        color: black; 
     }
 
     .hem {
@@ -90,7 +90,7 @@
     }
 
     .menubar li>a  {
-        color: black;
+        color: #E8DFCA;
         display: flex;
     }
 
