@@ -19,6 +19,7 @@ body {
 
 .image-container img {
     max-width: 100%;
+    margin-left: -58px;
     height: auto;
 }
 
