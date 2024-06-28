@@ -50,9 +50,52 @@ body {
     margin-top: 10px;
 }
 
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto; /* 위아래 마진을 조정 */
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5); /* 검색창 배경색을 투명하게 설정 */
+    border: 1.7px solid #A79277; /* 검색창 테두리 색상 */
+    border-radius: 15px; /* 검색창에 border-radius 추가 */
+    width: 80%; /* 검색창의 너비를 조정 */
+    max-width: 600px; /* 검색창 최대 너비 설정 */
+}
+
+.search-input {
+    flex: 1; /* 입력창이 차지할 수 있는 공간을 최대화 */
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0); /* 입력창 배경색을 투명하게 설정 */
+    color: #000;
+    border-radius: 15px; /* 입력창에 border-radius 추가 */
+}
+
+.search-button {
+    padding: 10px 20px; /* 버튼 패딩 조정 */
+    margin-left: 10px; /* 버튼과 입력창 사이 간격 설정 */
+    border: none;
+    background-color: #A79277; /* 버튼 배경색 */
+    color: #FFF; /* 버튼 텍스트 색상 */
+    cursor: pointer;
+    border-radius: 15px; /* 버튼에 border-radius 추가 */
+}
+
+.search-button i {
+    font-size: 16px;
+}
+
 @media screen and (max-width: 600px) {
     .aespa {
-        width: 500px;
+        width: 100%; /* 작은 화면에서 이미지 너비를 100%로 설정 */
+    }
+
+    .hem {
+        margin-top: -9px;
     }
 
     .idol-container {
@@ -62,23 +105,11 @@ body {
     }
 
     .img-container {
-        width:500px;
+        width: 100%; /* 작은 화면에서 이미지 컨테이너 너비를 100%로 설정 */
     }
 
-    .show {
-        top: 52px;
-        height: 1800px;
-    }
-
-    .hem {
-        margin-top: -8px;
-    }
-
-    .big-hem {
-        margin-top: 10px;
-    }
-
-    .right-menu {
-        margin-top: 0;
+    .search-container {
+        width: 80%; /* 작은 화면에서 검색창 너비를 조정 */
+        margin-top: 30px; /* 작은 화면에서 위쪽 마진을 조정 */
     }
 }
