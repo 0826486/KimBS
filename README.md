@@ -24,3 +24,4 @@
 ### » 이상 KimBS! 웹페이지에 대한 설명을 마치도록 하겠습니다. >.<
 
 [제 데모 영상입니다.] (https://drive.google.com/file/d/1X3EpcG5Low2gQFdYuGpbn5RthoUWANcU/view?usp=drive_link)
+[배포한 사이트 링크 👻] (https://kimbss.netlify.app/)
