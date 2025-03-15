@@ -1,145 +1,81 @@
-.nav {
-    background-color: #A79277;
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
-.search-text {
-    display: inline;
+@font-face {
+    font-family: 'Pretendard-Black';
+    src: url('pre/Pretendard-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
 }
 
-.big {
-    font-size: 28px;
-    margin-left: 20px;
-    font-weight: bold;
+body {
+    font-family: 'Pretendard-Regular';
+    margin: 0;
     padding: 0;
-    color: #A79277;
+    background-color: #dff0d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
 }
 
-.menubar {
-    padding-right: 20px;
-}
-
-.right-menu:last-child {
-    letter-spacing: 3px;
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .menubar ul {
     list-style: none;
+    padding: 0;
     margin: 0;
-    padding: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
 }
 
-.hem {
-    display: none;
+.big a {
+    margin-top: 18px;
+    color: #2e4a59;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    width: 100%;
 }
 
-.big {
-    color: #EAD8C0;
+.right-menu {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+    background-color: #f7f3e3;
+    padding: 10px 10px;
+    border-radius: 10px;
+    justify-content: center;
 }
 
-.menubar li {
-    display: inline; /* 글자를 가로로 표시 */
-    padding: 10px;
+.right-menu li {
+    list-style: none;
 }
 
-.right-menu > li > i , .right-menu > li {
-    color: #EAD8C0;
+.right-menu li a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
 }
 
-.menubar li a {
-    display: inline;
-    color: #EAD8C0; /*링크 색상 변경*/
-    text-decoration: none; /* 링크 밑줄 제거 */
-}
-
-.icon {
-    color: #EAD8C0;
-}
-
-.menubar .search-bar {
-    margin-left: auto;
-}
-
-.menubar ul:hover {
-    cursor: pointer;
-}
-
-.container {
-    height: 52px;
-    padding: 0;
-}
-
-@media screen and (max-width:600px) {
-    .right-menu {
-        display: none;
-    }
-
-    .right-menu > li > i , .right-menu > li {
-        color: #A79277;
-    }
-
-    .nav .right-menu li.search-bar a {
-        color: black; 
-    }
-
-    .hem {
-        display: flex;
-        font-size: 30px;
-        color: #EAD8C0;
-    }
-
-    .right-menu>li>a {
-        color: black;
-        display: flex;
-    }
-
-    .right-menubar li {
-        display: inline-block;
-        color: black;
-        float: right;
-    }
-
-    .search-text {
-        color: black;
-    }
-    .show {
-        display: flex;
-        flex-direction: column;
-        float: right;
-        align-items: flex-end;
-        font-size: 13px;
-        position: absolute;
-        width: 150px;
-        right: 0;
-        height: 1325px;
-        top: 42px;
-        background-color: #E8DFCA;
-        z-index: 2;
-    }
-
-    .big {
-        padding: 0;
-        margin: 0;
-        margin-top: -8px;
-        margin-left: 10px; /* .big 클래스에만 적용 */
-    }
-
-    .big-hem {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .nav-menubar {
-        display: flex;
-        flex-direction: column;
-        margin: 0 0 0 10px;
-    }
-
-    .right-menu {
-        color: black;
-    }
+.right-menu li a:hover {
+    background-color: #e0e0e0;
 }

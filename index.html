@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="css/KIMBS.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/nav.css">
     <link rel="icon" href="image/icon.png">
 </head>
 <body>
@@ -15,13 +14,10 @@
         <nav class="nav container">
             <div class="menubar">
                 <ul>
-                    <div class="big-hem">
-                        <li class="big"><a href="index.html">KimBS!</a></li>
-                    </div>
-                    <div class="hem" onclick="toggleMenu()"><i class="bi bi-list"></i></div>
-                    <div class="right-menu" id="rightMenu">
+                    <li class="big"><a href="index.html">KimBS!</a></li>
+                    <div class="right-menu">
                         <li><a href="Idol_News.html">연예계 뉴스</a></li>
-                        <li class="video"><a href="index.html">자컨</a></li>
+                        <li><a href="index.html">자컨</a></li>
                         <li><a href="Goods.html">굿즈</a></li>
                         <li><a href="Variety.html">예능</a></li>
                     </div>
@@ -31,25 +27,21 @@
     </header>
 
     <div class="image-container">
-        <a href="https://youtu.be/aky_Pn65r9Q?si=eMbrPpIQm2oi2bCS" target="_blank">
-            <img src="image/엔시티.jpg" alt="엔시티 사진" class="nct-image"> 
-        </a>
-        <a href="https://youtu.be/qppmHwt4nC8?si=RGTGv7mJXepWoReD" target="_blank">
-            <img src="image/세븐틴.jpg" alt="세븐틴 사진" class="sev-image">
-        </a>
-    </div>
-
-    <div class="Mm">
-        <div class="nct-container">
-            <div class="image-text"># NCT127 # NCT</div>
-            <div class="img-text"># 우리칠 사우나 Ep1</div>
-        </div>    
-    
-        <div class="seven-container">
-            <div class="seven-text"># SEVENTEEN # GOING SEVENTEEN</div>
-            <div class="sev-text"># 음악의 신들의 학교에 마에스트로의 등장?!</div>
+        <div class="item">
+            <img src="image/img1.png" class="img" alt="Image 1">
+            <div class="text-container">
+                <p class="text1"># 스무 살 되자마자 독립 선언한 프로미스나인 막내?!</p>
+                <p class="text1"># 아이돌 인간 극장</p>
+            </div>
         </div>
-    </div>
+        <div class="item">
+            <img src="image/img2.png" class="img" alt="Image 2">
+            <div class="text-container">
+                <p class="text2"># 핫플의 조건: 계단 있고 간판 없고 수상함 체력도 필요함!</p>
+            <p class="text2"># 따라해볼레이 EP.3</p>
+            </div>
+        </div>
+    </div>    
 
     <hr class="long-line">
 
@@ -57,25 +49,22 @@
         <h2 class="title">ON AIR!</h2>
     </div>
 
-    <article class="impossible-container">
-        <a href="https://biz.chosun.com/entertainment/enter_general/2024/04/24/TZ3HUS3KVELJ53CGOTIXFQOUUE/" target="_blank">
-            <img src="image/라이즈.jpg" alt="라이즈 속보" class="ri-image">
-        </a>
-    </article>
+    <div class="impossible-container">
+        <img src="image/img3.png" class="ri-image">
+    </div>    
 
-    <article class="song-container">
+    <div class="song-container">
         <h3 class="tittle">[ 속보 ]
-            <span>라이즈의 성장에 'Impossible'은 없다</span>
-        </br>
-            <span>다음이 궁금해지는 이유</span>
+            <p>라이즈의 성장에 'Impossible'은 없다</p>
+            <p>다음이 궁금해지는 이유</p>
         </h3>
         <div class="in">
-            <p>라이즈는 지난 18일 신곡 'Impossible'(임파서블)을 공개했다.</p> 
+            <p>라이즈는 지난 18일 신곡 'Impossible'(임파서블)을 공개했다.</p>
             <p>'하우스 음악'에 초점을 둔 'Impossible'은 모두 불가능하다고 여기더라도 서로 같은 꿈을 향해 함께</p>
             <p>나아가는 순간 불가능은 가능으로 바뀌며,</p>
             <p>더이상 불가능이란 존재하지 않는다는 메시지를 전한다.</p>
         </div>
-    </article>
+    </div>    
 
     <script src="js/Click.js"></script>
 </body>
